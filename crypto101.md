@@ -16,3 +16,11 @@ From the same source, another complementary definition of Cryptography is:
 prevent unauthorized access to sensitive information and enable verifiability of the information. The main goals include confidentiality, 
 integrity authentication and source authentication."
 
+## Why do we need Cryptography?
+We need to start by defining the three basic services of security:
+- *Confidentiality*:
+- *Integrity*:
+- *Availability*:
+
+encryption schemes, plain text, shared key, encrypt, ciphertext, decrypt, symmetric-key crypto
+
