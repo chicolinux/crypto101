@@ -18,9 +18,12 @@ integrity authentication and source authentication."
 
 ## Why do we need Cryptography?
 We need to start by defining the three basic services of security:
-- *Confidentiality*:
-- *Integrity*:
-- *Availability*:
+- *Confidentiality*: preserving authorized restrictions on information access and disclosure, including means for protecting personal privacy and proprietary information.
+- *Integrity*: guarding against improper information modification or destruction and ensuring information non-repudiation and authenticity.
+- *Availability*: ensuring timely and reliable access to and use of information.
+
+The above definition are taken from the [NIST SP 800-12 Rev. 1
+An Introduction to Information Security](https://csrc.nist.gov/publications/detail/sp/800-12/rev-1/final).
 
 encryption schemes, plain text, shared key, encrypt, ciphertext, decrypt, symmetric-key crypto
 
