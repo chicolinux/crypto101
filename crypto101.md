@@ -22,8 +22,19 @@ We need to start by defining the three basic services of security:
 - *Integrity*: guarding against improper information modification or destruction and ensuring information non-repudiation and authenticity.
 - *Availability*: ensuring timely and reliable access to and use of information.
 
-The above definition are taken from the [NIST SP 800-12 Rev. 1
-An Introduction to Information Security](https://csrc.nist.gov/publications/detail/sp/800-12/rev-1/final).
+The above definitions are taken from the [NIST SP 800-12 Rev. 1
+An Introduction to Information Security](https://csrc.nist.gov/publications/detail/sp/800-12/rev-1/final) and, are best know as the CIA Triad.
+
+So, back to the original question, why do we need Crypto? Well, as humans, we have the basic needs of Confidentiality and Integrity with our own Personal Information (PI) and the information that we use at our jobs. And cryptography help us with keeping our data Confidential but also with Integrity. We do not want a attacker to mess with our data in any form. We want our social messages and e-mail to be confidential and our Personal Health Informatgion (PHI) to be genuine and unaltered. Failure to do so can have strong consequences to our lives.
+
+## Two types of Cryptography
+Generaly speacking, the field of Cryptography is divided into two sub-fields: 
+- **Symmetric-key Cryptography** or also known as private-key cryptography.
+- **Asymmetric-key Cryptography** or also known as public-key cryptography.
+
+### Symmetric-key Cryptography
+
+### Asymmetric-key Cryptography
 
 encryption schemes, plain text, shared key, encrypt, ciphertext, decrypt, symmetric-key crypto
 
