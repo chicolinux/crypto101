@@ -33,8 +33,17 @@ Generaly speacking, the field of Cryptography is divided into two sub-fields:
 - **Asymmetric-key Cryptography** or also known as public-key cryptography.
 
 ### Symmetric-key Cryptography
+We have to imaginary users, Alice and Bob. They one to exchange secure messages between them because they are very concious about their Confidentiality and Privacy. In order for Alice and Bob to eschange secure messages, they must use a *encryption schemes* or algorithm to transform their *plain text* messagges into a *ciphertext* message.
+
+In order to secure a message, both, Bob and Alice must get and share a *key*. For instance, Bob wants to send a confidential message to Alice. No body else should be able to read this message but Alice and Bob. They have manage to meet and share a secret key so they both can send each other encrypted messages. So now Bob must take the key and the plain text message for Alice, and pass it through a process known as *encryption* that, by use of the key and a *encryption scheme* will produce a *ciphertext*. Only those in posetionof the secret key are able to read the message. 
+
+In the other end of the communication channel, Alice will receive the ciphertext or encrypted message, and using the shared secret key, will pass the ciphertext trought a *decryption* process in order to get back the plain text. During the decryption proces, the same encryption scheme is used to decrypt the message.
+
+Let's use an image to explain the process.
 
 ### Asymmetric-key Cryptography
 
-encryption schemes, plain text, shared key, encrypt, ciphertext, decrypt, symmetric-key crypto
 
+## References
+1. [Privacy Canada](https://privacycanada.net/short-list-of-classical-ciphers/)
+2. [Crypto Couple](https://cryptocouple.com/#)
